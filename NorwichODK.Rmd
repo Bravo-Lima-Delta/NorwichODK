@@ -35,14 +35,14 @@ h2 { /* Header 2 */
 }
 
 h3 { /* Header 3 */
-  font-size: 22px;
-  color: #425563 !important;
+  font-size: 28px;
+  color: #002a3a !important;
   font-family: Goudy Bold;
 }
 
 h4 { /* Header 4 */
-  font-size: 16px;
-  color: 	#7c878e !important;
+  font-size: 22px;
+  color: 	#425563 !important;
   font-family: Goudy Bold;
 }
 
@@ -69,31 +69,131 @@ pre { /* Code block - determines code spacing between lines */
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+# {.tabset}
+
 ## About Us
+
+### About Us
 
 Start typing an about us here.
 
-## History
+***
 
-### History of Omicron Delta Kappa
+### Our History
+
+<br>
+
+#### Omicron Delta Kappa
 
 Short history of ODK here.
 
-### History of Norwich University Circle
+<br>
+
+#### Norwich University Circle
 
 Short history of Norwich University Circle here.  Include very brief Norwich University history and significance.
 
-#### Header 4
+&nbsp;
+<hr />
+<p style="text-align: center;"> Report authored and compiled by <a href="https://www.linkedin.com/in/briandavidhizar/">Brian Davidhizar</a> using R programming and R Markdown. </p>
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+## Current Efforts & Other News
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+### Circle Happenings
+
+<br>
+
+#### Upcoming National Events
+
+List of National ODK events here.
+
+***
+
+#### Other News
+
+Other news here.
+
+&nbsp;
+<hr />
+<p style="text-align: center;"> Report authored and compiled by <a href="https://www.linkedin.com/in/briandavidhizar/">Brian Davidhizar</a> using R programming and R Markdown. </p>
+
+## Circle Members
+
+### Circle Officers
+
+To reach officer panel with inquiries, please use email@email.com
+
+Place officer list here.
+
+***
+
+### Organizations represented by Circle Members
+
+Place list of orgs here.
+
+&nbsp;
+<hr />
+<p style="text-align: center;"> Report authored and compiled by <a href="https://www.linkedin.com/in/briandavidhizar/">Brian Davidhizar</a> using R programming and R Markdown. </p>
+
+## Candidate Information
+
+### Application Information for Interested Candidates
+
+<br>
+
+#### Requirements for Candidacy
+
+<br>
+
+**Requirements for Graduate Students**
+
+  + Detail requirements here for graduate candidate pool.
+  + requirement 2
+  + requirement 3
+
+<br>
+
+**Requirements for Undergraduate Students**
+
+  + Detail requirements here for undergraduate candidate pool.
+  + requirement 2
+  + requirement 3
+
+***
+
+#### Deadlines
+
+<br>
+
+Place deadline commentary here.
+
+***
+
+#### Acceptance and Induction
+
+<br>
+
+**Acceptance**
+
+  + Detail Acceptance details here.
+
+<br>
+
+**Induction**
+
+  + Detail induction details here.
+
+&nbsp;
+<hr />
+<p style="text-align: center;"> Report authored and compiled by <a href="https://www.linkedin.com/in/briandavidhizar/">Brian Davidhizar</a> using R programming and R Markdown. </p>
+
+## Analytics
+
+Put charts and stuff here.
 
 ```{r cars}
 summary(cars)
 ```
-
-## Including Plots
 
 You can also embed plots, for example:
 
@@ -106,5 +206,3 @@ Note that the `echo = FALSE` parameter was added to the code chunk to prevent pr
 &nbsp;
 <hr />
 <p style="text-align: center;"> Report authored and compiled by <a href="https://www.linkedin.com/in/briandavidhizar/">Brian Davidhizar</a> using R programming and R Markdown. </p>
-
-
