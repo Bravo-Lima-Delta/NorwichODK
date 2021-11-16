@@ -1,15 +1,89 @@
 ---
-title: "Norwich University Circle of Omicron Delta Kappa"
-author: "Brian Davidhizar"
-date: "11/15/2021"
+title: ""
 output: html_document
 ---
+
+
+<style type="text/css">
+
+body{ /* Normal  */
+  font-size: 16px;
+  font-family: Goudy Old Style;
+  }
+
+td {  /* Table  */
+  font-size: 10px;
+}
+
+h1.title {
+  font-size: 40px;
+  color: #6cace4 !important;
+  font-family: Goudy Bold;
+  text-align: center;
+}
+
+h1 { /* Header 1 */
+  font-size: 34px;
+  color: #6cace4 !important;
+  font-family: Goudy Bold;
+}
+
+h2 { /* Header 2 */
+  font-size: 28px;
+  color: #002a3a !important;
+  font-family: Goudy Bold;
+}
+
+h3 { /* Header 3 */
+  font-size: 22px;
+  color: #425563 !important;
+  font-family: Goudy Bold;
+}
+
+h4 { /* Header 4 */
+  font-size: 16px;
+  color: 	#7c878e !important;
+  font-family: Goudy Bold;
+}
+
+code.r{ /* Code block */
+  font-size: 12px;
+}
+
+pre { /* Code block - determines code spacing between lines */
+    font-size: 12px;
+}
+</style>
+
+
+
+<br>
+
+![](https://odk.org/wp-content/uploads/2014/09/LOGOS-horiz.jpg)
+
+<br>
+
+<h1 style=" text-align: center;">NORWICH UNIVERSITY CIRCLE</h1>
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## R Markdown
+## About Us
+
+Start typing an about us here.
+
+## History
+
+### History of Omicron Delta Kappa
+
+Short history of ODK here.
+
+### History of Norwich University Circle
+
+Short history of Norwich University Circle here.  Include very brief Norwich University history and significance.
+
+#### Header 4
 
 This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
@@ -28,3 +102,9 @@ plot(pressure)
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+&nbsp;
+<hr />
+<p style="text-align: center;"> Report authored and compiled by <a href="https://www.linkedin.com/in/briandavidhizar/">Brian Davidhizar</a> using R programming and R Markdown. </p>
+
+
