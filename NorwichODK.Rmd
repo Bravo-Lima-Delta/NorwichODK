@@ -73,71 +73,131 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## About Us
 
-### About Us
-
-Start typing an about us here.
-
-***
-
 ### Our History
 
 <br>
 
 #### Omicron Delta Kappa
 
-Short history of ODK here.
+[Omicron Delta Kappa](www.odk.org) ($\small O \Delta K$) was founded in 1914 by a group of students and faculty at Washington and Lee University in Lexington, Virginia.  It was founded on the belief that collegiate-level leadership should be recognized and encouraged across all facets of campus life.
 
+$\small O \Delta K$ has over 300 chapters -- referred to as "Circles" -- and initiates around 8,000 new members annually.  National membership exceeds 320,000 students and professionals across higher education, business, entertainment, sports, mass media, technology, the sciences, law, government, military service and an array of other fields.  
+
+$\small O \Delta K$ promotes its ideals through its vision and leadership values.
+
+<br>
+
+  + **$\small O \Delta K$ Vision**
+  
+    + Omicron Delta Kappa is a multi-generational society that excels in recognizing and connecting collaborative and inclusive leaders.
+  
+<br>
+
+  + **$\small O \Delta K$ Ideals & Leadership Values**
+  
+    + **Collaboration:**  Working together to achieve a defined and common purpose.
+    + **Inclusivity:**  Actively seeking, embracing, and advancing a diverse group of individuals.
+    + **Integrity:**  Aligning one's values and beliefs with behaviors and speech.
+    + **Knowledge:**  Striving for excellence in academics and to pursue lifelong learning.
+    + **Service:**  Answering the call to action from one's community, country, or organization.
+    
 <br>
 
 #### Norwich University Circle
 
-Short history of Norwich University Circle here.  Include very brief Norwich University history and significance.
+[Norwich University](www.norwich.edu), founded in 1819 and located in Northfield, Vermont, is the oldest private and senior military college in the United States and offers bachelor's and master's degrees on-campus and online (wikipedia).
+
+The Norwich University Circle of $\small O \Delta K$ was founded in 2015.  It was the first Circle established to include members from an institution's graduate programs and one the first to include members who participated in campus life at distance through virtual platforms.  The Norwich University Cirlce has 58 student/alumni, faculty, and honorary members as of Fall 2021. 
 
 &nbsp;
 <hr />
-<p style="text-align: center;"> Report authored and compiled by <a href="https://www.linkedin.com/in/briandavidhizar/">Brian Davidhizar</a> using R programming and R Markdown. </p>
+<p style="text-align: center;"> Some sourcing from Omicron Delta Kappa official materials.  Site compiled by <a href="https://www.linkedin.com/in/briandavidhizar/">Brian Davidhizar</a> using R programming and R Markdown. </p>
 
 ## Current Efforts & Other News
 
 ### Circle Happenings
 
-<br>
+Details to come.
+
+***
+
+#### The Cirlce of Omicron Delta Kappa Publication
+
+$\small O \Delta K$ publishes a magazine called [**The Circle**](https://odk.org/get-involved/thecircle/) which can be accessed using the link.
+
+***
 
 #### Upcoming National Events
 
-List of National ODK events here.
+A current list of National ODK events can be found [here](https://odk.org/circle-officers/dates-and-deadlines/).  A few recurring annual events of note include $\small O \Delta K$'s **National Leadership Conference** (June 2-5, 2022) and **National Day of Service** (April 14, 2022).
 
 ***
 
 #### Other News
 
-Other news here.
+$\small O \Delta K$ has initiated a 2022-2024 Strategic Plan.  It has 3 goals and 12 objectives as detailed below:
 
+<br>
+
+1. Provide and excellent, relevant campus member and circle experience.
+    + Provide greater support for advisors.
+    + Unify and understand circle programming.
+    + Invest in a targeted redevelopment plan for under-performing circles in order to develop a sustainable culture that offers a premium and relevant experience.
+    + Redevelop extension practices to ensure new circles establish a sustainable culture and the desired reputation on campus.
+    + Develop strategies to assess and encourage high-level circle performance.
+
+<br>
+
+2. Build a more diverse and inclusive organization.
+    + Create incentives for circles to recruit, induct, and engage more graduate, professional, faculty, staff, alumni, and community members including honorary members.
+    + Develop and implement policies that ensure equitable access to membership for historically marginalized and underrepresented individuals.
+    + Establish new pathways for non-campus individuals to join Omicron Delta Kappa.
+    
+<br>
+
+3. Champion and celebrate collaborative and inclusive leadership.
+    + Develop strategies for greater celebration and engagement of individual members.
+    + Develop a national marketing campaign to clearly communicate the Society's mission and impact among all audiences, including those not on campus.
+    + Develop a national communications program (free and paid media) on the topic of collaborative and inclusive leadership.
+    + Sponsor events, prizes, and activities that celebrate and recognize collaborative leadership.
+    
 &nbsp;
 <hr />
-<p style="text-align: center;"> Report authored and compiled by <a href="https://www.linkedin.com/in/briandavidhizar/">Brian Davidhizar</a> using R programming and R Markdown. </p>
+<p style="text-align: center;"> Some sourcing from Omicron Delta Kappa official materials.  Site compiled by <a href="https://www.linkedin.com/in/briandavidhizar/">Brian Davidhizar</a> using R programming and R Markdown. </p>
 
 ## Circle Members
 
 ### Circle Officers
 
-To reach officer panel with inquiries, please use email@email.com
-
-Place officer list here.
+Officer list forthcoming.
 
 ***
 
 ### Organizations represented by Circle Members
 
-Place list of orgs here.
++ Norwich University
++ United States Army
++ United States Marine Corps
++ United States Air Force
++ International Rescue Committee
++ ISE Consulting
++ Jacobs Naval Systems
++ Jewish Federation of Sarasota-Manaty
++ New Mexico State University - Los Alamos Neutron Science Center
++ Pepco Holdings, Inc.
++ Scaled Composites, LLC
++ Select Medical
++ T. Rowe Price
 
 &nbsp;
 <hr />
-<p style="text-align: center;"> Report authored and compiled by <a href="https://www.linkedin.com/in/briandavidhizar/">Brian Davidhizar</a> using R programming and R Markdown. </p>
+<p style="text-align: center;"> Some sourcing from Omicron Delta Kappa official materials.  Site compiled by <a href="https://www.linkedin.com/in/briandavidhizar/">Brian Davidhizar</a> using R programming and R Markdown.  </p>
 
 ## Candidate Information
 
 ### Application Information for Interested Candidates
+
+Forthcoming.
 
 <br>
 
@@ -185,7 +245,7 @@ Place deadline commentary here.
 
 &nbsp;
 <hr />
-<p style="text-align: center;"> Report authored and compiled by <a href="https://www.linkedin.com/in/briandavidhizar/">Brian Davidhizar</a> using R programming and R Markdown. </p>
+<p style="text-align: center;"> Some sourcing from Omicron Delta Kappa official materials.  Site compiled by <a href="https://www.linkedin.com/in/briandavidhizar/">Brian Davidhizar</a> using R programming and R Markdown. </p>
 
 ## Analytics
 
@@ -205,4 +265,4 @@ Note that the `echo = FALSE` parameter was added to the code chunk to prevent pr
 
 &nbsp;
 <hr />
-<p style="text-align: center;"> Report authored and compiled by <a href="https://www.linkedin.com/in/briandavidhizar/">Brian Davidhizar</a> using R programming and R Markdown. </p>
+<p style="text-align: center;"> Some sourcing from Omicron Delta Kappa official materials.  Site compiled by <a href="https://www.linkedin.com/in/briandavidhizar/">Brian Davidhizar</a> using R programming and R Markdown. </p>
