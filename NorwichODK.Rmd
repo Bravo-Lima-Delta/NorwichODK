@@ -139,9 +139,9 @@ theme_3 <-
   theme(
     axis.text.x = element_text(size = 16, family = "Palatino"),
     axis.text.y = element_blank(),
-    axis.title.x = element_text(size = 24, family = "Palatino", color=odk_colors[5]),
+    axis.title.x = element_text(size = 24, family = "Palatino", color=odk_colors[4]),
     axis.title.y = element_blank(),
-    plot.title = element_text(family = "Palatino", size = 30, color=odk_colors[5]),
+    plot.title = element_text(family = "Palatino", size = 30, color=odk_colors[4]),
     plot.subtitle = element_text(family = "Palatino", size = 20),
     plot.caption = element_text(family = "Palatino", size = 20),
     axis.ticks = element_blank()#,
@@ -348,10 +348,10 @@ Total Norwich University Circle Members = 58
   geom_col(fill = odk_colors[1]) +
   geom_text(aes(label = Inductees), family = "Palatino", size=8, nudge_y = 2, 
             #label.padding = unit(0.2, "lines"),
-            color = odk_colors[5], 
+            color = odk_colors[4], 
             #fill = "white"
             ) +
-  labs(title = "Count of Norwich Circle Inductees", color = odk_colors[5]) +
+  labs(title = "Count of Norwich Circle Inductees", color = odk_colors[4]) +
   xlab("Year") +
   ylab("") +
   theme_classic() +
