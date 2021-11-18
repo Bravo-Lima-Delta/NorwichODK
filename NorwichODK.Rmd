@@ -356,9 +356,33 @@ Total Norwich University Circle Members = 58
   ylab("") +
   theme_classic() +
   theme_3
-  
-  
+```
 
+<br>
+
+```{r memb_states, fig.width = 5, fig.height = 3}
+#Table to plot inductees through time
+
+  member_data %>% 
+  select(State, Last.Name) %>% 
+  rename(`Last Name` = Last.Name) %>% 
+  mutate(State = as.factor(State)) %>% 
+  group_by(State) %>% 
+  summarize(Members = sum(!`Last Name` == "")) %>%
+  filter(Members != 0) %>% 
+  arrange(desc(Members)) %>% 
+  ggplot(aes(x = reorder(State, desc(Members)), y = Members)) + 
+  geom_col(fill = odk_colors[1]) +
+  geom_text(aes(label = Members), family = "Palatino", size=8, nudge_y = 2, 
+            #label.padding = unit(0.2, "lines"),
+            color = odk_colors[4], 
+            #fill = "white"
+            ) +
+  labs(title = "Member Count by State", color = odk_colors[4]) +
+  xlab("State") +
+  ylab("") +
+  theme_classic() +
+  theme_3
 ```
 
 &nbsp;
