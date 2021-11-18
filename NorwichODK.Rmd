@@ -66,7 +66,90 @@ pre { /* Code block - determines code spacing between lines */
 <h1 style=" text-align: center;">NORWICH UNIVERSITY CIRCLE</h1>
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+#LOAD LIBRARIES
+library(ggplot2)
+library(showtext)
+library(tidyverse)
+library(lubridate)
+library(ggrepel)
+library(kableExtra)
+library(gridExtra)
+library(plotly)
+library(RColorBrewer)
+library(zoo)
+library(scales)
+
+#CODE FOR SHOWTEXT
+trace(grDevices::png, exit = quote({
+    showtext::showtext_begin()
+}), print = FALSE)
+
+#Function that will allow for using %notin% or %!in% for dplyr code chunks
+'%!in%' <- Negate('%in%')
+
+#ODK Color Palette
+odk_colors <- c("#6cace4", #1 odk blue 
+                "#b9d9eb", #2 odk light blue
+                "#005eb8", #3 odk dark blue
+                "#002a3a", #4 odk navy
+                "#425563", #5 odk dark gray
+                "#7c878e", #6 odk gray
+                "#d0d3d4", #7 odk light gray
+                "#d6a461", #8 odk gold
+                "#fdd086", #9 odk light purple
+                "#7e5475", #10 odk purple
+                "#693c5e", #11 odk light blue
+                "#f8485e", #12 odk light magenta
+                "#bbc592" #13 odk lime
+                )
+
+#fonts
+font_add(family = "Palatino", # Name you want to use 
+         regular = "pala.ttf")
+
+#Get Norwich Circle ODK Data
+member_data <- read.csv("Norwich Cirlce Membership.csv", stringsAsFactors = FALSE, header = TRUE)
+glimpse(member_data)
+
+
+#Create themes for charting
+
+theme_1 <-
+  theme(
+    axis.text.x = element_text(size = 8, family = "Palatino"),
+    axis.text.y = element_text(size = 8, family = "Palatino"),
+    axis.title.x = element_text(size = 12, family = "Palatino"),
+    axis.title.y = element_text(size = 12, family = "Palatino"),
+    plot.title = element_text(family = "Palatino"),
+    plot.subtitle = element_text(family = "Palatino"),
+    plot.caption = element_text(family = "Palatino")
+  )
+
+theme_2 <-
+  theme(
+    axis.text.x = element_text(size = 8, angle = 270, hjust = 0, vjust=0.5),
+    legend.position = 'top',
+    legend.justification = 'left',
+    legend.direction = 'horizontal',
+    legend.text = element_text(size=8),
+    panel.border = element_rect(color = "black", fill="#7c878e", size=1, linetype = "solid")
+  )
+
+theme_3 <-
+  theme(
+    axis.text.x = element_text(size = 16, family = "Palatino"),
+    axis.text.y = element_blank(),
+    axis.title.x = element_text(size = 24, family = "Palatino", color=odk_colors[5]),
+    axis.title.y = element_blank(),
+    plot.title = element_text(family = "Palatino", size = 30, color=odk_colors[5]),
+    plot.subtitle = element_text(family = "Palatino", size = 20),
+    plot.caption = element_text(family = "Palatino", size = 20),
+    axis.ticks = element_blank()#,
+    #line = element_blank()
+  )
+
+
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 ```
 
 # {.tabset}
@@ -81,7 +164,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 [Omicron Delta Kappa](www.odk.org) ($\small O \Delta K$) was founded in 1914 by a group of students and faculty at Washington and Lee University in Lexington, Virginia.  It was founded on the belief that collegiate-level leadership should be recognized and encouraged across all facets of campus life.
 
-$\small O \Delta K$ has over 300 chapters -- referred to as "Circles" -- and initiates around 8,000 new members annually.  National membership exceeds 320,000 students and professionals across higher education, business, entertainment, sports, mass media, technology, the sciences, law, government, military service and an array of other fields.  
+$\small O \Delta K$ has over 300 chapters -- referred to as "circles" -- and initiates around 8,000 new members annually.  National membership exceeds 320,000 students and professionals across higher education, business, entertainment, sports, mass media, technology, the sciences, law, government, military service and an array of other fields.  
 
 $\small O \Delta K$ promotes its ideals through its vision and leadership values.
 
@@ -133,7 +216,7 @@ A current list of National ODK events can be found [here](https://odk.org/circle
 
 ***
 
-#### Other News
+#### Strategic Plan
 
 $\small O \Delta K$ has initiated a 2022-2024 Strategic Plan.  It has 3 goals and 12 objectives as detailed below:
 
@@ -249,19 +332,34 @@ Place deadline commentary here.
 
 ## Analytics
 
-Put charts and stuff here.
+Total Norwich University Circle Members = 58
 
-```{r cars}
-summary(cars)
+```{r memb_through_time, fig.width = 5, fig.height = 3}
+#Table to plot inductees through time
+
+  member_data %>% 
+  select(Status, Last.Name) %>% 
+  rename(Year = Status) %>% 
+  rename(`Last Name` = Last.Name) %>% 
+  mutate(Year = as.factor(year(as.Date(Year, format = "%m/%d/%Y")))) %>% 
+  group_by(Year) %>% 
+  summarize(Inductees = sum(!`Last Name` == "")) %>% 
+  ggplot(aes(x = Year, y = Inductees)) + 
+  geom_col(fill = odk_colors[1]) +
+  geom_text(aes(label = Inductees), family = "Palatino", size=8, nudge_y = 2, 
+            #label.padding = unit(0.2, "lines"),
+            color = odk_colors[5], 
+            #fill = "white"
+            ) +
+  labs(title = "Count of Norwich Circle Inductees", color = odk_colors[5]) +
+  xlab("Year") +
+  ylab("") +
+  theme_classic() +
+  theme_3
+  
+  
+
 ```
-
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
 
 &nbsp;
 <hr />
