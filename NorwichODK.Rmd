@@ -196,7 +196,7 @@ The Norwich University Circle of $\small O \Delta K$ was founded in 2015.  It wa
 <hr />
 <p style="text-align: center;"> Some sourcing from Omicron Delta Kappa official materials.  Site compiled by <a href="https://www.linkedin.com/in/briandavidhizar/">Brian Davidhizar</a> using R programming and R Markdown. </p>
 
-## Current Efforts & Other News
+## Current Efforts & News
 
 ### Circle Happenings
 
@@ -250,6 +250,24 @@ $\small O \Delta K$ has initiated a 2022-2024 Strategic Plan.  It has 3 goals an
 
 ## Circle Members
 
+### Membership Benefits
+
+<br>
+
+#### Scholarships
+
+Omicron Delta Kappa awards more than 40 [Scholarships](https://odk.org/get-involved/scholarships/) per year to help collegiate members continue graduate and professional studies.
+
+<br>
+
+#### Other Membership Benefits
+
+Check out other membership benefits [here](https://odk.org/members/benefits-membership/).
+
+<br>
+
+***
+
 ### Circle Officers
 
 Officer list forthcoming.
@@ -276,7 +294,7 @@ Officer list forthcoming.
 <hr />
 <p style="text-align: center;"> Some sourcing from Omicron Delta Kappa official materials.  Site compiled by <a href="https://www.linkedin.com/in/briandavidhizar/">Brian Davidhizar</a> using R programming and R Markdown.  </p>
 
-## Candidate Information
+## Candidate Info
 
 ### Application Information for Interested Candidates
 
@@ -384,6 +402,40 @@ Total Norwich University Circle Members = 58
   theme_classic() +
   theme_3
 ```
+
+&nbsp;
+<hr />
+<p style="text-align: center;"> Some sourcing from Omicron Delta Kappa official materials.  Site compiled by <a href="https://www.linkedin.com/in/briandavidhizar/">Brian Davidhizar</a> using R programming and R Markdown. </p>
+
+## Leadership Tools & Social Media 
+
+### National Social Media
+
++ [ODK HQ YouTube](https://www.youtube.com/channel/UCv2JhK5ltEU18yvMQkb1J1w)
+
++ [ODK HQ Instagram](https://www.instagram.com/odk_hq/)
+
++ [ODK1914 on Twitter](https://twitter.com/ODK1914)
+
++ [ODK MeritPages](https://odk.meritpages.com/)
+
++ [ODK LinkedIn](https://www.linkedin.com/groups/144429/)
+
++ [ODK Facebook](https://www.facebook.com/OmicronDeltaKappa)
+
+<br>
+
+### Leadership Resources
+
++ [3x5 Leadership](https://3x5leadership.com/articles/series/):  Leadership development from a West Point and Ivy League graduate.
+
++ [Jocko Podcast](https://jockopodcast.com/jocko-podcast-books/):  Landing page will be the books covered in various episodes.
+
++ [Simplify Magazine](https://simplifymagazine.com/issues/):  Excellent for leading self.
+
++ [Prosci Blog](https://blog.prosci.com/):  Ideas for influencing change.
+
++ [McKinsey on Books](https://www.mckinsey.com/featured-insights/mckinsey-on-books):  Check out the books in the Organizational Behavior section.
 
 &nbsp;
 <hr />
