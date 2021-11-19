@@ -148,6 +148,23 @@ theme_3 <-
     #line = element_blank()
   )
 
+theme_4 <-
+  theme(
+    axis.text.x = element_text(size = 16, family = "Palatino"),
+    axis.text.y = element_blank(),
+    axis.title.x = element_text(size = 24, family = "Palatino", color=odk_colors[4]),
+    axis.title.y = element_text(size = 24, family = "Palatino", color=odk_colors[4]),
+    plot.title = element_text(family = "Palatino", size = 30, color=odk_colors[4]),
+    plot.subtitle = element_text(family = "Palatino", size = 20),
+    plot.caption = element_text(family = "Palatino"),
+    axis.ticks = element_blank(),
+    legend.position = 'top',
+    legend.justification = 'left',
+    legend.direction = 'horizontal',
+    legend.text = element_text(size = 16, family = "Palatino"),
+    legend.title = element_blank()
+  )
+
 
 knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 ```
@@ -403,6 +420,35 @@ Total Norwich University Circle Members = 58
   theme_3
 ```
 
+<br>
+
+```{r memb_split, fig.width = 5, fig.height = 3}
+#Table to plot inductees through time
+
+  member_data %>% 
+  select(Class, Last.Name) %>% 
+  rename(`Last Name` = Last.Name) %>% 
+  mutate(`Inductee Status` = as.factor(Class)) %>% 
+  group_by(`Inductee Status`) %>% 
+  summarize(Members = sum(!`Last Name` == "")) %>%
+  filter(Members != 0) %>% 
+  arrange(desc(Members)) %>% 
+  ggplot(aes(x = 1, y = Members, fill = reorder(`Inductee Status`, Members))) + 
+  geom_col(size = 1) +
+  geom_text(aes(label = Members), family = "Palatino", size=8, position = position_stack(vjust = 0.5),
+            #label.padding = unit(0.2, "lines"),
+            color = odk_colors[4], 
+            #fill = "white"
+            ) +
+  scale_fill_manual(values = rev(odk_colors[c(1,2,6,7)])) +
+  labs(title = "Member Split by Inductee Status", color = odk_colors[4]) +
+  xlab("") +
+  ylab("Member Count") +
+  coord_flip() +
+  theme_classic() +
+  theme_4
+```
+
 &nbsp;
 <hr />
 <p style="text-align: center;"> Some sourcing from Omicron Delta Kappa official materials.  Site compiled by <a href="https://www.linkedin.com/in/briandavidhizar/">Brian Davidhizar</a> using R programming and R Markdown. </p>
@@ -427,15 +473,116 @@ Total Norwich University Circle Members = 58
 
 ### Leadership Resources
 
+<br>
+
+#### Norwich Circle Book Recommendations
+
++ Atomic Habits by James Clear
++ Leading Change by John Kotter
++ Emotional Agility by Susan David
++ Insight:  Why we're not as self-aware as we think... by Tasha Eurich
++ Culture Code by Daniel Coyle
++ Deep Work by Cal Newport
++ Working Identity by Hermina Ibarra
++ Multipliers by Liz Wiseman
++ 12 Rules for Life:  An antidote to chaos by Jordan Peterson
++ How the Way We Talk Can Change the Way We Work by Robert Kegan and Lis Lahey
++ What Got You Here Won't Get You There by Marshall Goldsmith
++ Leader as Coach by David Peterson
++ The Skilled Facilitator by Roger Schwarz
++ Extreme Ownership by Jocko Willink
++ The Fifth Discipline by Peter Senge
++ Radical Inclusion by Martin Dempsey
++ Social Intelligence by Karl Albrecht
++ Fierce Conversations by Susan Scott
++ The Leadership Challenge by James Kouzes and Barry Posner
++ Mindset by Carol Dweck
++ Learned Optimism by Martin Seligman
++ Radical Candor by Kim Scott
++ The 21 Irrefutable Laws of Leadership by John Maxwell
++ Grit by Angela Duckworth
+
+<br>
+
+#### Leadership Influencers
+
++ **[The Art of Self-Coaching](https://www.edbatista.com/the-art-of-self-coaching-public-course.html) by Ed Batista.  An absolute must.**
+
 + [3x5 Leadership](https://3x5leadership.com/articles/series/):  Leadership development from a West Point and Ivy League graduate.
 
 + [Jocko Podcast](https://jockopodcast.com/jocko-podcast-books/):  Landing page will be the books covered in various episodes.
 
++ [Coaching for Leaders](https://coachingforleaders.com/) with Dave Stachowiak.
+
++ [EntreLeadership](https://www.ramseysolutions.com/shows/the-entreleadership-podcast): Ramsey Solutions
+
++ [Adam Grant](https://www.adamgrant.net/writing/articles/) articles.
+
++ [Leadership podcast ideas.](https://blog.feedspot.com/leadership_podcasts/)
+
+<br>
+
+#### Publications
+
++ [Harvard Business Review](https://hbr.org/)
+
++ [MIT Sloan Management Review](https://sloanreview.mit.edu/)
+
++ [McKinsey Quarterly](https://www.mckinsey.com/quarterly/the-magazine)
+
+<br>
+
+#### Coaching and Self-Development
+
++ [The Art of Self-Coaching](https://www.edbatista.com/the-art-of-self-coaching-public-course.html) by Ed Batista.  In case you missed it above.
+
 + [Simplify Magazine](https://simplifymagazine.com/issues/):  Excellent for leading self.
+
++ [Find a coach!](https://www.coach.me/find-a-coach):  coach.me
+
+<br>
+
+#### Change Management
 
 + [Prosci Blog](https://blog.prosci.com/):  Ideas for influencing change.
 
++ [Change Management Review](https://www.changemanagementreview.com/)
+
+<br>
+
+#### Leadership-focused Organizations
+
++ [Center for Creative Leadership](https://www.ccl.org/)
+
+<br>
+
+#### Leadership Academia
+
++ Norwich University's [Master of Science in Leadership](https://online.norwich.edu/academic-programs/masters/leadership)
+
++ Northwestern University's [KelloggInsight](https://insight.kellogg.northwestern.edu/)
+
++ Stanford University's [Leadership Insights](https://www.gsb.stanford.edu/insights/leadership)
+
++ INSEAD [Knowledge](https://knowledge.insead.edu/)
+
++ Georgetown University's [Institute for Transformational Leadership](https://scs.georgetown.edu/departments/37/institute-for-transformational-leadership/)
+
++ Benedictine University's [Center for Values-Driven Leadership](https://cvdl.ben.edu/)
+
++ University of Maryland's [Center for Leadership, Innovation and Change](https://www.rhsmith.umd.edu/centers/clic)
+
+
+
+<br>
+
+#### Books / Reading Lists
+
 + [McKinsey on Books](https://www.mckinsey.com/featured-insights/mckinsey-on-books):  Check out the books in the Organizational Behavior section.
+
++ [3x5 Leadership Bookshelf](https://3x5leadership.com/bookshelf/bookshelf-readinglist/)
+
++ [U.S. Military Professional Reading Lists](https://library.citadel.edu/professionalreadinglist)
 
 &nbsp;
 <hr />
