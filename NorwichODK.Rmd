@@ -153,7 +153,7 @@ theme_4 <-
     axis.text.x = element_text(size = 16, family = "Palatino"),
     axis.text.y = element_blank(),
     axis.title.x = element_text(size = 24, family = "Palatino", color=odk_colors[4]),
-    axis.title.y = element_text(size = 24, family = "Palatino", color=odk_colors[4]),
+    axis.title.y = element_blank(),
     plot.title = element_text(family = "Palatino", size = 30, color=odk_colors[4]),
     plot.subtitle = element_text(family = "Palatino", size = 20),
     plot.caption = element_text(family = "Palatino"),
@@ -422,7 +422,7 @@ Total Norwich University Circle Members = 58
 
 <br>
 
-```{r memb_split, fig.width = 5, fig.height = 3}
+```{r memb_split, fig.width = 5, fig.height = 1.75}
 #Table to plot inductees through time
 
   member_data %>% 
@@ -440,7 +440,8 @@ Total Norwich University Circle Members = 58
             color = odk_colors[4], 
             #fill = "white"
             ) +
-  scale_fill_manual(values = rev(odk_colors[c(1,2,6,7)])) +
+  scale_fill_manual(values = rev(odk_colors[c(1,2,6,7)]), 
+                    guide = guide_legend(reverse = TRUE)) +
   labs(title = "Member Split by Inductee Status", color = odk_colors[4]) +
   xlab("") +
   ylab("Member Count") +
