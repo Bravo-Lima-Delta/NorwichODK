@@ -478,30 +478,33 @@ Total Norwich University Circle Members = 58
 
 #### Norwich Circle Book Recommendations
 
-+ Atomic Habits by James Clear
-+ Leading Change by John Kotter
-+ Emotional Agility by Susan David
-+ Insight:  Why we're not as self-aware as we think... by Tasha Eurich
-+ Culture Code by Daniel Coyle
-+ Deep Work by Cal Newport
-+ Working Identity by Hermina Ibarra
-+ Multipliers by Liz Wiseman
-+ 12 Rules for Life:  An antidote to chaos by Jordan Peterson
-+ How the Way We Talk Can Change the Way We Work by Robert Kegan and Lis Lahey
-+ What Got You Here Won't Get You There by Marshall Goldsmith
-+ Leader as Coach by David Peterson
-+ The Skilled Facilitator by Roger Schwarz
-+ Extreme Ownership by Jocko Willink
-+ The Fifth Discipline by Peter Senge
-+ Radical Inclusion by Martin Dempsey
-+ Social Intelligence by Karl Albrecht
-+ Fierce Conversations by Susan Scott
-+ The Leadership Challenge by James Kouzes and Barry Posner
-+ Mindset by Carol Dweck
-+ Learned Optimism by Martin Seligman
-+ Radical Candor by Kim Scott
-+ The 21 Irrefutable Laws of Leadership by John Maxwell
-+ Grit by Angela Duckworth
++ Leadership
+    + The 21 Irrefutable Laws of Leadership by John Maxwell
+    + Culture Code by Daniel Coyle
+    + Extreme Ownership by Jocko Willink
+    + Fierce Conversations by Susan Scott
+    + Multipliers by Liz Wiseman
+    + Leader as Coach by David Peterson
+    + The Leadership Challenge by James Kouzes and Barry Posner
+    + Radical Candor by Kim Scott
+    + Radical Inclusion by Martin Dempsey
++ Facilitation, Organizational Learning, & Change Management
+    + The Fifth Discipline by Peter Senge
+    + How the Way We Talk Can Change the Way We Work by Robert Kegan and Lis Lahey
+    + Leading Change by John Kotter
+    + The Skilled Facilitator by Roger Schwarz
++ Self-Development & Productivity
+    + 12 Rules for Life:  An antidote to chaos by Jordan Peterson
+    + Atomic Habits by James Clear
+    + Deep Work by Cal Newport
+    + Emotional Agility by Susan David
+    + Grit by Angela Duckworth
+    + Insight:  Why we're not as self-aware as we think... by Tasha Eurich
+    + Learned Optimism by Martin Seligman
+    + Mindset by Carol Dweck
+    + Social Intelligence by Karl Albrecht
+    + What Got You Here Won't Get You There by Marshall Goldsmith
+    + Working Identity by Hermina Ibarra
 
 <br>
 
@@ -531,6 +534,8 @@ Total Norwich University Circle Members = 58
 
 + [McKinsey Quarterly](https://www.mckinsey.com/quarterly/the-magazine)
 
++ [Other notable journals (Benedictine University)](https://researchguides.ben.edu/organization-development)
+
 <br>
 
 #### Coaching and Self-Development
@@ -540,6 +545,16 @@ Total Norwich University Circle Members = 58
 + [Simplify Magazine](https://simplifymagazine.com/issues/):  Excellent for leading self.
 
 + [Find a coach!](https://www.coach.me/find-a-coach):  coach.me
+
+<br>
+
+#### Productivity Tools
+
++ [Habit Hub: Routine & Schedule app](https://apps.apple.com/us/app/habit-hub-routine-schedule/id1149192857):  Free.  Awesome for habit development.
+
++ [Cozi Calendar](https://www.cozi.com/calendar/):  Free.  A great shared family/team calendar app.
+
++ [Trello](https://trello.com/home) Kanban board app great for project management.
 
 <br>
 
