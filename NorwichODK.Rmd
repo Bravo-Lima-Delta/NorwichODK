@@ -179,7 +179,7 @@ knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 
 #### Omicron Delta Kappa
 
-[Omicron Delta Kappa](www.odk.org) ($\small O \Delta K$) was founded in 1914 by a group of students and faculty at Washington and Lee University in Lexington, Virginia.  It was founded on the belief that collegiate-level leadership should be recognized and encouraged across all facets of campus life.
+[Omicron Delta Kappa](www.odk.org) ($\small O \Delta K$) was founded in 1914 by a group of students and faculty at Washington and Lee University in Lexington, Virginia.  It was founded on the belief that collegiate leadership should be recognized and encouraged across all facets of campus life.
 
 $\small O \Delta K$ has over 300 chapters -- referred to as "circles" -- and initiates around 8,000 new members annually.  National membership exceeds 320,000 students and professionals across higher education, business, entertainment, sports, mass media, technology, the sciences, law, government, military service and an array of other fields.  
 
@@ -281,14 +281,6 @@ Omicron Delta Kappa awards more than 40 [Scholarships](https://odk.org/get-invol
 
 Check out other membership benefits [here](https://odk.org/members/benefits-membership/).
 
-<br>
-
-***
-
-### Circle Officers
-
-Officer list forthcoming.
-
 ***
 
 ### Organizations represented by Circle Members
@@ -307,6 +299,26 @@ Officer list forthcoming.
 + Select Medical
 + T. Rowe Price
 
+***
+
+### Circle Officers
+
+Student Officers (e.g. President, Vice President, Treasurer) of the Norwich University circle undertake the following responsibilities: 
+
+* Establish a regular circle meeting schedule as well as officer meetings
+* Work with circle coordinator and faculty adviser to set the circle’s calendar for the year ensuring that membership selection, reporting, and initiation happen in a timely manner
+* Facilitate goal setting
+* Encourage, support, and motivate circle
+* Update college or university administrators on the circle’s activities
+* Be familiar with national bylaws as well as the circle’s bylaws and policies
+* Work with circle coordinator and faculty adviser to ensure minimum circle standards are being met
+* Host an orientation for new members, explaining $\small O \Delta K$’s history and purpose and their obligations as members
+* Preside over induction ceremony
+* Help maintain circle documents
+* Determine appropriate programming for the campus
+* Ensure circle is represented at national convention and regional drive-in workshops
+* Encourage members to remain in contact with $\small O \Delta K$ after graduation
+
 &nbsp;
 <hr />
 <p style="text-align: center;"> Some sourcing from Omicron Delta Kappa official materials.  Site compiled by <a href="https://www.linkedin.com/in/briandavidhizar/">Brian Davidhizar</a> using R programming and R Markdown.  </p>
@@ -315,23 +327,26 @@ Officer list forthcoming.
 
 ### Application Information for Interested Candidates
 
-Forthcoming.
+<br>
+
+#### Candidacy Eligibility for Graduate Students
+
+* **You must be a Current Student in the MSL Major or an MBA Major with Organizational Leadership Concentration or an alumni of one of those two programs from Norwich University.** If you are a current student, you must have completed four seminars of graduate-level work in the MSL program or an MBA major with an Organizational Leadership concentration.
+* **You must achieve and maintain GPA of: 3.70.**  If you are a current student, you can find your GPA in your Virtual Campus.  Follow Instructions below in 'Accessing Virtual Campus' section.
+* **Complete Norwich University's $\small O \Delta K$ Circle Application Form**, including:
+
+    + An essay describing your demonstrated Professional Leadership results in each of Norwich University’s 4 Values-Based Leadership Dimensions. First-Person, APA 6th Edition format with Cover Page and Reference Page. Not To Exceed 1500 words. Be sure to cover all 4 dimensions:
+  
+        1. Leading the Self
+        2. Leading Others
+        3. Leading in Service
+        4. Leading the Organization.
+        
+* **Submit two letters of testimony** supporting the above leadership results. Not to exceed 2 pages each.
 
 <br>
 
-#### Requirements for Candidacy
-
-<br>
-
-**Requirements for Graduate Students**
-
-  + Detail requirements here for graduate candidate pool.
-  + requirement 2
-  + requirement 3
-
-<br>
-
-**Requirements for Undergraduate Students**
+#### Candidacy Eligibility for Undergraduate Students
 
   + Detail requirements here for undergraduate candidate pool.
   + requirement 2
@@ -339,27 +354,40 @@ Forthcoming.
 
 ***
 
-#### Deadlines
+#### Application From
 
-<br>
+**Application are received on a rolling basis.  Notifications of acceptance are issued quarterly.**
 
-Place deadline commentary here.
+**Current Students:** Please follow this link to fill out the application.  This will set up all email notifications to go to your Norwich University email account.
+
+**Graduates/Alumni:** Please follow this link to fill out the application.  You will need to set up a Dynamic Forms account and identify an email address for the notifications to go to.
+
+If accepted, you will need to pay one-time national dues of $88.00, one-time local dues of $50.00, and complete the $\small O \Delta K$ Application Form. Instructions on how to pay the dues will be given with your acceptance notification.  
 
 ***
 
 #### Acceptance and Induction
 
-<br>
+**To be inducted into $\small O \Delta K$ after you have been accepted:**
 
-**Acceptance**
+* You must fulfill participation requirements: You must achieve and maintain GPA of 3.70.
+* Have demonstrated Professional Leadership excellence in one or more of Norwich University’s 4 Values-Based Leadership Dimensions.
+* Received an Acceptance Letter (only the top 3% of the entire University population can beaccepted based on GPA and application).
+* Complete the $\small O \Delta K$ Application and pay one-time national dues of $88.00, one-time local dues of$50.00 (due a month before the induction).
+    + Active participation on at least one committee, including executive committee
+    + Attendance at virtual meetings
+    + Attendance at a minimum of two events per semester (in person or virtual)
+    
+Please be aware that acceptance into $\small O \Delta K$ requires active participation in the circle. Review the information below and consider which office you hope to maintain in the Norwich $\small O \Delta K$ Circle.
 
-  + Detail Acceptance details here.
+***
 
-<br>
+#### Instructions for Accessing Virtual Campus
 
-**Induction**
-
-  + Detail induction details here.
+* Log in to your Virtual Campus http://online.norwich.edu/current-students
+* Select NU Pay in the center red tab.
+* A new blue and white page should open in another window.
+* Select Student Services, then Student Records, then Academic Transcript.
 
 &nbsp;
 <hr />
