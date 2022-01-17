@@ -602,4 +602,6 @@ Total Norwich University Circle Members = 58
 
 + [U.S. Military Professional Reading Lists](https://library.citadel.edu/professionalreadinglist)
 
-
+&nbsp;
+<hr />
+<p style="text-align: center;"> Some sourcing from Omicron Delta Kappa official materials.  Site compiled by <a href="https://www.linkedin.com/in/briandavidhizar/">Brian Davidhizar</a> using R programming and R Markdown. </p>
