@@ -100,7 +100,7 @@ odk_colors <- c("#6cace4", #1 odk blue
                 "#7e5475", #10 odk purple
                 "#693c5e", #11 odk light blue
                 "#f8485e", #12 odk light magenta
-                "#bbc592" #13 odk lime
+                "#bbc592" #13 odk lime.
                 )
 
 #fonts
@@ -329,13 +329,15 @@ Student Officers (e.g. President, Vice President, Treasurer) of the Norwich Univ
 
 <br>
 
-#### Candidacy Eligibility for Graduate Students
+#### Candidacy Eligibility and Application Process
 
 * **You must be (1) a Current Undergraduate Student of sophomore status or higher, (2) a Current Graduate Student in the MSL Major or (3) an MBA Major with Organizational Leadership Concentration or (4) an alumni of one of those two graduate programs from Norwich University.** If you are a current graduate student, you must have completed four seminars of graduate-level work.
 * **All student candiates -- regardless of level -- must achieve and maintain GPA of: 3.70.**  
-* **Complete Norwich University's $\small O \Delta K$ Circle Application Form**, including:
+* **Complete Norwich University's $\small O \Delta K$ Circle Application Forms**:
 
-    + An essay describing your demonstrated Professional Leadership results in each of Norwich University’s 4 Values-Based Leadership Dimensions. First-Person, APA 7th Edition format with Cover Page and Reference Page. Not To Exceed 1500 words. Be sure to cover all 4 dimensions:
+    + [For Norwich Students/Faculty](https://nextgensso.com/sp/startSSO.ping?PartnerIdpId=https://sts.windows.net/34fcb756-3a7c-4dea-ab4d-5324bc02ef5e/&TargetResource=https%3a%2f%2fdynamicforms.ngwebsolutions.com%2fSubmit%2fStart%2f0f6b1f77-bc05-44e9-b987-0c15f15ba8f0)
+    + [For Non-Students/Faculty](https://dynamicforms.ngwebsolutions.com/Submit/Start/0f6b1f77-bc05-44e9-b987-0c15f15ba8f0?SSO=N)
+    + Also include an essay describing your demonstrated Professional Leadership results in each of Norwich University’s 4 Values-Based Leadership Dimensions. First-Person, APA 7th Edition format with Cover Page and Reference Page. Not To Exceed 1500 words. Be sure to cover all 4 dimensions:
   
         1. Leading the Self
         2. Leading Others
@@ -343,18 +345,7 @@ Student Officers (e.g. President, Vice President, Treasurer) of the Norwich Univ
         4. Leading the Organization.
         
 * **Submit two letters of testimony** supporting the above leadership results. Not to exceed 2 pages each.
-
-***
-
-#### Application Form
-
-**Application are received on a rolling basis.  Notifications of acceptance are issued quarterly.**
-
-**Current Students:** Please follow this [link](https://dynamicforms.ngwebsolutions.com/Submit/Page?form=82cc3f59-cc19-4835-89e0-27b3cb319f56&page=340173&token=iKbtR-5qHU2CW-giBYSwj42jsa-zBofqRCbahlBcpjw) to fill out the application.  This will set up all email notifications to go to your Norwich University email account.
-
-**Graduates/Alumni:** Please follow this [link](https://dynamicforms.ngwebsolutions.com/Submit/Page?form=82cc3f59-cc19-4835-89e0-27b3cb319f56&page=340173&token=iKbtR-5qHU2CW-giBYSwj42jsa-zBofqRCbahlBcpjw) to fill out the application.  You will need to set up a Dynamic Forms account and identify an email address for the notifications to go to.
-
-If accepted, you will need to pay one-time national dues of $88.00, one-time local dues of $50.00, and complete the $\small O \Delta K$ Application Form. Instructions on how to pay the dues will be given with your acceptance notification.  
+* If accepted, you will need to pay one-time national dues of $88.00, one-time local dues of $50.00, and complete the $\small O \Delta K$ Application Form. Instructions on how to pay the dues will be given with your acceptance notification.  
 
 ***
 
@@ -611,6 +602,4 @@ Total Norwich University Circle Members = 58
 
 + [U.S. Military Professional Reading Lists](https://library.citadel.edu/professionalreadinglist)
 
-&nbsp;
-<hr />
-<p style="text-align: center;"> Some sourcing from Omicron Delta Kappa official materials.  Site compiled by <a href="https://www.linkedin.com/in/briandavidhizar/">Brian Davidhizar</a> using R programming and R Markdown. </p>
+
