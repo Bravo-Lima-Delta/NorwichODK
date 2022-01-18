@@ -212,9 +212,7 @@ $\small O \Delta K$ promotes its ideals through its vision and leadership values
 
 The Norwich University Circle of $\small O \Delta K$ was founded in 2015.  It was the first Circle established to include members from an institution's graduate programs and one the first to include members who participated in campus life at distance through virtual platforms.  The Norwich University Cirlce has 58 student/alumni, faculty, and honorary members as of Fall 2021. 
 
-&nbsp;
-<hr />
-<p style="text-align: center;"> Some sourcing from Omicron Delta Kappa official materials.  Site compiled by <a href="https://www.linkedin.com/in/briandavidhizar/">Brian Davidhizar</a> using R programming and R Markdown. </p>
+***
 
 ## Current Efforts & News
 
@@ -222,19 +220,19 @@ The Norwich University Circle of $\small O \Delta K$ was founded in 2015.  It wa
 
 Details to come.
 
-***
+<br>
 
 #### The Cirlce of Omicron Delta Kappa Publication
 
 $\small O \Delta K$ publishes a magazine called [**The Circle**](https://odk.org/get-involved/thecircle/) which can be accessed using the link.
 
-***
+<br>
 
 #### Upcoming National Events
 
 A current list of National $\small O \Delta K$ events can be found [here](https://odk.org/circle-officers/dates-and-deadlines/).  A few recurring annual events of note include $\small O \Delta K$'s **National Leadership Conference** (June 2-5, 2022) and **National Day of Service** (April 14, 2022).
 
-***
+<br>
 
 #### Strategic Plan
 
@@ -264,9 +262,7 @@ $\small O \Delta K$ has initiated a 2022-2024 Strategic Plan.  It has 3 goals an
     + Develop a national communications program (free and paid media) on the topic of collaborative and inclusive leadership.
     + Sponsor events, prizes, and activities that celebrate and recognize collaborative leadership.
     
-&nbsp;
-<hr />
-<p style="text-align: center;"> Some sourcing from Omicron Delta Kappa official materials.  Site compiled by <a href="https://www.linkedin.com/in/briandavidhizar/">Brian Davidhizar</a> using R programming and R Markdown. </p>
+***
 
 ## Circle Members
 
@@ -284,8 +280,6 @@ Omicron Delta Kappa awards more than 40 [Scholarships](https://odk.org/get-invol
 
 Check out other membership benefits [here](https://odk.org/members/benefits-membership/).
 
-***
-
 ### Organizations represented by Circle Members
 
 + Norwich University
@@ -302,7 +296,7 @@ Check out other membership benefits [here](https://odk.org/members/benefits-memb
 + Select Medical
 + T. Rowe Price
 
-***
+<br>
 
 ### Circle Officers
 
@@ -322,9 +316,7 @@ Student Officers (e.g. President, Vice President, Treasurer) of the Norwich Univ
 * Ensure circle is represented at national convention and regional drive-in workshops
 * Encourage members to remain in contact with $\small O \Delta K$ after graduation
 
-&nbsp;
-<hr />
-<p style="text-align: center;"> Some sourcing from Omicron Delta Kappa official materials.  Site compiled by <a href="https://www.linkedin.com/in/briandavidhizar/">Brian Davidhizar</a> using R programming and R Markdown.  </p>
+***
 
 ## Candidate Info
 
@@ -350,7 +342,7 @@ Student Officers (e.g. President, Vice President, Treasurer) of the Norwich Univ
 * **Submit two letters of testimony** supporting the above leadership results. Not to exceed 2 pages each.
 * If accepted, you will need to pay one-time national dues of $88.00, one-time local dues of $50.00, and complete the $\small O \Delta K$ Application Form. Instructions on how to pay the dues will be given with your acceptance notification.  
 
-***
+<br>
 
 #### Acceptance and Induction
 
@@ -366,9 +358,7 @@ Student Officers (e.g. President, Vice President, Treasurer) of the Norwich Univ
     
 Please be aware that acceptance into $\small O \Delta K$ requires active participation in the circle. Review the information below and consider which office you hope to maintain in the Norwich $\small O \Delta K$ Circle.
 
-&nbsp;
-<hr />
-<p style="text-align: center;"> Some sourcing from Omicron Delta Kappa official materials.  Site compiled by <a href="https://www.linkedin.com/in/briandavidhizar/">Brian Davidhizar</a> using R programming and R Markdown. </p>
+***
 
 ## Analytics
 
@@ -455,9 +445,7 @@ Total Norwich University Circle Members = 58
   theme_4
 ```
 
-&nbsp;
-<hr />
-<p style="text-align: center;"> Some sourcing from Omicron Delta Kappa official materials.  Site compiled by <a href="https://www.linkedin.com/in/briandavidhizar/">Brian Davidhizar</a> using R programming and R Markdown. </p>
+***
 
 ## Leadership Tools & Social Media 
 
@@ -605,6 +593,3 @@ Total Norwich University Circle Members = 58
 
 + [U.S. Military Professional Reading Lists](https://library.citadel.edu/professionalreadinglist)
 
-&nbsp;
-<hr />
-<p style="text-align: center;"> Some sourcing from Omicron Delta Kappa official materials.  Site compiled by <a href="https://www.linkedin.com/in/briandavidhizar/">Brian Davidhizar</a> using R programming and R Markdown. </p>
